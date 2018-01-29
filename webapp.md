@@ -221,7 +221,7 @@ We will be setting up Windows Server 2016 in order to host a simple .php website
 
 - Back in the server home menu inside IIS, choose `Default Documentation` 
 <p align="center">
-  <img src="/images/.png?raw=true" alt="Documentation"/>
+  <img src="/images/44.png?raw=true" alt="Documentation"/>
 </p>
 
 - Choose the `Add...` action at the top right and name the default document `index.php`
