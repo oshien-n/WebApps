@@ -11,7 +11,6 @@
 - [Summary](#summary)
 - [Downloading and Creating of Windows Server 2016](#windowsdownload)
 - [Windows Server Setup](#windowssetup)
-- []
 
 ## Prerequisistes <a id="prereq"></a>
 1. Have Ubuntu ISP running
