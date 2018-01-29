@@ -11,6 +11,12 @@
 - [Summary](#summary)
 - [Downloading and Creating of Windows Server 2016](#windowsdownload)
 - [Windows Server Setup](#windowssetup)
+- [Installing IIS and CGI](#IIS&CGI)
+- [Installing PHP](#PHP)
+- [Configure IIS](#configureIIS)
+- [Check PHP](#checkPHP)
+- [Create PHP Website](#PHPwebsite)
+- [Troubleshooting](#troubleshoot)
 
 ## Prerequisistes <a id="prereq"></a>
 1. Have Ubuntu ISP running
@@ -112,7 +118,7 @@ We will be setting up Windows Server 2016 in order to host a simple .php website
   <img src="/images/21.png?raw=true" alt="Server Manager"/>
 </p>
 
-## Installing IIS and CGI
+## Installing IIS and CGI <a id="IIS&CGI"></a>
 1. Follow these insturctions to install IIS and CGI. Both of these are needed to host a PHP website. 
 - Click `Add roles and Features`
 <p align="center">
@@ -150,7 +156,7 @@ We will be setting up Windows Server 2016 in order to host a simple .php website
   <img src="/images/29.png?raw=true" alt="Install"/>
 </p>
 
-## Installing PHP
+## Installing PHP <a id="PHP"></a>
 1. Download the latest .zip file from [http://windows.php.net/](http://windows.php.net/).
 <p align="center">
   <img src="/images/30.png?raw=true" alt="PHP website"/>
@@ -203,7 +209,7 @@ We will be setting up Windows Server 2016 in order to host a simple .php website
 
 - Close all open windows
 
-## Configure IIS 
+## Configure IIS <a id="configureIIS"></a>
 1. In `Server Manager`, click `Tools` and open `IIS` (Internet Informtion Services).
 
 - On the left `Connections` section, choose your server and click `Handler Mappings` under IIS
@@ -232,13 +238,13 @@ We will be setting up Windows Server 2016 in order to host a simple .php website
   <img src="/images/46.png?raw=true" alt="index.php"/>
 </p>
 
-## Check PHP
+## Check PHP <a id="checkPHP"></a>
 1. Run the command `php -info` inside Powershell and make sure you get a reply back with information, like the php license.
 <p align="center">
   <img src="/images/47.png?raw=true" alt="powershell"/>
 </p>
 
-## Create PHP Website
+## Create PHP Website <a id="PHPwebsite"></a>
 1. Open Notepad and enter the code `<?php phpinfo(); ?>` and Save As `phpinfo.php` (When saving, make sure to change file type to `All Files`). This file will create a PHP webpage showing information about the current PHP installation.
 <p align="center">
   <img src="/images/48.png?raw=true" alt="Notepad"/>
@@ -254,6 +260,6 @@ We will be setting up Windows Server 2016 in order to host a simple .php website
   <img src="/images/50.png?raw=true" alt="PHP website"/>
 </p>
 
-## Troubleshooting
+## Troubleshooting <a id="troubleshoot"></a>
 **`php -info` doesn't reply with anything**
-  This means you are missing a .dll file necessary for PHP to run. Visit [https://www.microsoft.com/en-us/download/details.aspx?id=48145](https://www.microsoft.com/en-us/download/details.aspx?id=48145) to download **Visual C++ Redistributable for Visual Studio 2015**. Be sure to download and install both **x64 and x86** versions. 
+  -This means you are missing a .dll file necessary for PHP to run. Visit [https://www.microsoft.com/en-us/download/details.aspx?id=48145](https://www.microsoft.com/en-us/download/details.aspx?id=48145) to download **Visual C++ Redistributable for Visual Studio 2015**. Be sure to download and install both **x64 and x86** versions. 
