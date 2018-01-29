@@ -34,22 +34,22 @@ We will be setting up Windows Server 2016 in order to host a simple .php website
 2. Use the downloaded Windows Server ISO to create a Virtual Machine. Use the recommended setting for the allocated RAM, storage and CPU cores. VMWare users can follow these images. Virtual Box users can use the same setting but the GUI will look different. 
 - Choose the Windows Server ISO
 <p align="center">
-  <img src="2.png?raw=true" alt="Choose ISO"/>
+  <img src="images/2.png?raw=true" alt="Choose ISO"/>
 </p>
 
 - Choose Microsoft Windows for Operating System and Windows Server 2016 for version
 <p align="center">
-  <img src="/images/3.png?raw=true" alt="Choose System"/>
+  <img src="images/3.png?raw=true" alt="Choose System"/>
 </p>
 
 - Name the VM with any preferred name
 <p align="center">
-  <img src="/images/4.png?raw=true" alt="Name VM"/>
+  <img src="images/4.png?raw=true" alt="Name VM"/>
 </p>
 
 - Allocate space for VM
 <p align="center">
-  <img src="/images/5.png?raw=true" alt="VM space"/>
+  <img src="images/5.png?raw=true" alt="VM space"/>
 </p>
 
 3. Boot the Windows Server Virtual Machine. 
