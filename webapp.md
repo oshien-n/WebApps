@@ -6,10 +6,10 @@
 
 ### Table of Contents
 
-- [Prerequisites] (#prereq)
-- [Summary] (#summary)
-- [Downloading and Creating of Windows Server 2016] (#windowsdownload)
-- [Windows Server Setup] (#windowssetup)
+- [Prerequisites](#prereq)
+- [Summary](#summary)
+- [Downloading and Creating of Windows Server 2016](#windowsdownload)
+- [Windows Server Setup](#windowssetup)
 - []
 
 ## Prerequisistes <a id="prereq"></a>
