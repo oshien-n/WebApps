@@ -262,4 +262,5 @@ We will be setting up Windows Server 2016 in order to host a simple .php website
 
 ## Troubleshooting <a id="troubleshoot"></a>
 **`php -info` doesn't reply with anything**
-  -This means you are missing a .dll file necessary for PHP to run. Visit [https://www.microsoft.com/en-us/download/details.aspx?id=48145](https://www.microsoft.com/en-us/download/details.aspx?id=48145) to download **Visual C++ Redistributable for Visual Studio 2015**. Be sure to download and install both **x64 and x86** versions. 
+ 
+ -This means you are missing a .dll file necessary for PHP to run. Visit [https://www.microsoft.com/en-us/download/details.aspx?id=48145](https://www.microsoft.com/en-us/download/details.aspx?id=48145) to download **Visual C++ Redistributable for Visual Studio 2015**. Be sure to download and install both **x64 and x86** versions. 
