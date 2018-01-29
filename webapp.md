@@ -1,3 +1,4 @@
+# Web Apps - Windows Server 2016
 ## Written by Oshien Nellissery
 
 ### Contact 
@@ -27,3 +28,9 @@ We will be setting up Windows Server 2016 in order to host a simple .php website
 3. Boot the Windows Server Virtual Machine. 
 
 ## Windows Server Setup <a id="windowssetup"></a>
+
+## Installing IIS and CGS
+
+## Installing PHP
+
+## Troubleshooting
